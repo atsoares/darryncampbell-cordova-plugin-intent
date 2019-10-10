@@ -17,6 +17,7 @@
             <intent-filter>
                 <action android:name="com.darryncampbell.cordova.plugin.intent.ACTION" />
                 <category android:name="android.intent.category.DEFAULT" />
+		<data android:host="response" android:scheme="order" />
             </intent-filter>
         </config-file>
         <config-file target="AndroidManifest.xml" platform="android" parent="/manifest" mode="merge">
